@@ -157,6 +157,12 @@
                         <li class="mont text-sm mt-2">
                             <a href="{{ route('gallery') }}">Gallery</a>
                         </li>
+                        <li class="mont text-sm mt-2">
+                            <a href="{{ route('home') }}#services">Our Services</a>
+                        </li>
+                        <li class="mont text-sm mt-2">
+                            <a href="{{ route('places') }}">Places</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="">

@@ -22,7 +22,7 @@
             <div class="px-6 sm:px-28 pb-5 flex flex-wrap justify-between gap-5">
                 <div class="w-full bg-lightb rounded-xl p-5 flex flex-col md:flex-row items-center">
                     <div class="w-full md:w-1/5 justify-center mb-4 md:mb-0 md:mr-10">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="user photo"
+                        <img src="{{ asset('assets/images/krishna-tamang.jpg') }}" alt="user photo"
                             class="w-28 h-28 object-cover rounded-full mx-auto" />
                     </div>
                     <div class="flex flex-col w-full md:w-4/5">
