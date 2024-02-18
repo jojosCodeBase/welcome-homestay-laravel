@@ -2,22 +2,28 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\VisitorCount;
+
 class HomeController extends Controller
 {
     public function home()
     {
-        return view('home');
+        $visitor_count = VisitorCount::count();
+        return view('home', compact('visitor_count'));
     }
     public function about()
     {
-        return view('about');
+        $visitor_count = VisitorCount::count();
+        return view('about', compact('visitor_count'));
     }
     public function gallery()
     {
-        return view('gallery');
+        $visitor_count = VisitorCount::count();
+        return view('gallery', compact('visitor_count'));
     }
     public function places()
     {
-        return view('places');
+        $visitor_count = VisitorCount::count();
+        return view('places', compact('visitor_count'));
     }
 }

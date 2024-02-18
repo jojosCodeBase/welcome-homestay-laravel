@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -138,7 +139,9 @@ body{
 }
 
 .active {
-  color: teal;
+  color: rgb(70, 182, 182);
+  border-bottom: 2px solid rgb(70, 182, 182);
+  padding-bottom: 5px;
 }
 
 .bgimg {
@@ -181,4 +184,8 @@ body{
 
 #menuContents {
   transition: all 0.5s ease;
+}
+
+.text-teal{
+    color: teal;
 }

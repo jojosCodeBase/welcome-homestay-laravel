@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome Homestay Darjeeling</title>
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
-    <link rel="shortcut icon" href="{{ asset('assets/images/logo.png') }}" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ asset('assets/images/logo-round.png') }}" type="image/x-icon" />
     <meta name="description"
         content="Experience the warm hospitality of WelcomeHomestay, your ultimate homestay destination in enchanting Darjeeling. Immerse yourself in the wonders of this picturesque town, as we welcome you as part of our extended family. Discover the beauty of Darjeeling with a stay at WelcomeHomestay, where heartfelt hospitality meets the breathtaking landscapes of this charming locale." />
     <meta name="keywords"
@@ -14,6 +14,7 @@
     <meta name="author" content="Krishna Tamang" />
     <script src="{{ asset('assets/js/Components.js') }}" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script>
         tailwind.config = {
             theme: {
@@ -193,13 +194,11 @@
         <!-- Footer bottom -->
         <div class="flex flex-col md:flex-row justify-between items-center md:items-end text-center md:text-left">
             <span class="mont text-xs mb-2 md:mb-0">© 2024 Welcome Homestay</span>
+            <div class="">
+                <p class="text-lg text-teal font-semibold">Total Visitors: {{ $visitor_count }}</p>
+            </div>
             <div class="text-xs mont flex flex-col">
                 <span>Designed & Developed by Kunsang Moktan</span>
-                {{-- <span>
-                    <a href="https://grenishrai.vercel.app/" target="_blank" rel="noopener noreferrer">
-                        Designed & Developed by Grenish Rai
-                    </a>
-                </span> --}}
             </div>
         </div>
     </footer>

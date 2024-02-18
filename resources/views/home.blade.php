@@ -43,11 +43,11 @@
         <div class="px-6 pb-5 md:px-28 flex flex-col-reverse md:flex-row h-full md:h-[40vh] gap-6 md:gap-10">
             <div class="md:w-1/2 bg-back flex flex-col p-5 rounded-xl">
                 <span class="mont text-xl font-semibold text-gray-600">About Us</span>
-                <span class="text-sm mt-5">
+                <span class="text-sm mt-5 text-justify">
                     Welcome Homestay is nestling in the arms of Darjeeling, Kanchanjunga Himalayas range, exactly middle
                     of the Bara Mangwa or Mangmaya village with its own shine.
                 </span>
-                <span class="text-sm mt-3">
+                <span class="text-sm mt-3 text-justify">
                     Mangmaya, is a corruption of the amalgamation of the words Mang and Maya. Mang is wheat in the local
                     tongue while Maya is illusion in terms of Sanskrit word and in nepali “love”.
                 </span>
@@ -64,7 +64,7 @@
                 <span class="mont font-bold text-xl text-gray-700">
                     Accommodation
                 </span>
-                <span class="text-sm mt-2">
+                <span class="text-sm mt-2 text-justify">
                     Our homestay offers comprehensive accommodation, ensuring guests' comfort with both food and lodging
                     services.
                     Included in your stay are three delicious meals served daily, featuring breakfast, lunch, and dinner. We
@@ -72,7 +72,7 @@
                     pride in providing hearty and satisfying dishes, prepared with care and using fresh, locally-sourced
                     ingredients.
                 </span>
-                <span class="text-sm mt-3">
+                <span class="text-sm mt-3 text-justify">
                     Whether you're starting your day with a wholesome breakfast, enjoying a midday meal, or winding
                     down with a satisfying dinner, our culinary offerings aim to make your stay with us memorable and
                     fulfilling.
@@ -84,71 +84,56 @@
             </div>
         </div>
 
-        <!-- testimonials -->
-        <div class="px-6 md:px-28 pb-5">
-            <div class="w-full p-4 bg-orchid rounded-xl flex flex-col">
-                <span class="mont text-gray-600 text-sm">Testimonials</span>
-                <span class="mont font-bold text-xl text-gray-700">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                </span>
-                <span class="mt-1 text-sm mont mt-5">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti!
-                </span>
-                <div class="flex justify-start gap-5 w-full overflow-x-scroll hide-scrollbar" id="testimonialCarousel">
-                    <!-- Testimonial 1 -->
-                    <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 py-3">
-                        <div class="p-4 bg-[#F7F9F9] rounded-lg">
-                            <h2 class="mont font-bold text-sm">John Doe</h2>
-                            <p class="text-sm mt-2 mont">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
-                                quae dignissimos molestiae!
-                            </p>
-                            <div class="mt-2 mont text-sm flex items-center gap-1">
-                                4.5
-                                <img src="{{ asset('assets/icons/star.svg') }}" alt="4.5 star rating" class="w-4 h-4" />
+        <!-- features section -->
+        <div class="px-6 md:px-28 pb-5" id="services">
+            <div class="w-full p-5 rounded-xl flex flex-col md:flex-row justify-between">
+                <div class="flex flex-col justify-between w-full">
+                    <div class="flex flex-col w-full mb-4 md:mb-0">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                            <div class="bg-white p-6">
+                                <div class="flex items-center justify-center mb-4">
+                                    <i class="bi bi-wifi text-4xl text-teal"></i>
+                                </div>
+                                <h4 class="text-xl font-semibold mb-2 text-center"><span class="text-teal">Free
+                                        WiFi</span></h4>
+                                <p class="text-gray-700 text-center">We offer complimentary WiFi amenities, allowing guests to enjoy free internet access.</p>
+                            </div>
+                            <div class="bg-white p-6">
+                                <div class="flex items-center justify-center mb-4">
+                                    <i class="bi bi-car-front-fill text-4xl text-teal"></i>
+                                </div>
+                                <h4 class="text-xl font-semibold mb-2 text-center"><span class="text-teal">Car
+                                        Parking</span></h4>
+                                <p class="text-gray-700 text-center">We provide parking facilities for cars and accommodations for drivers.</p>
+                            </div>
+                            <div class="bg-white p-6">
+                                <div class="flex items-center justify-center mb-4">
+                                    <i class="bi bi-send-fill text-4xl text-teal"></i>
+                                </div>
+                                <h4 class="text-xl font-semibold mb-2 text-center"><span class="text-teal">Local
+                                        Sightseeing</span></h4>
+                                <p class="text-gray-700 text-center">We also offer our guests the convenience of a vehicle for local sightseeing tours.</p>
+                            </div>
+                            <div class="bg-white p-6">
+                                <div class="flex items-center justify-center mb-4">
+                                    <i class="bi bi-fire text-4xl text-teal"></i>
+                                </div>
+                                <h4 class="text-xl font-semibold mb-2 text-center"><span class="text-teal">Bonfire /
+                                        Barbeque</span></h4>
+                                <p class="text-gray-700 text-center">Upon request, we offer our guests Bonfire and Barbecue facilities.
+                                </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 py-3">
-                        <div class="p-4 bg-[#F7F9F9] rounded-lg">
-                            <h2 class="mont font-bold text-sm">John Doe</h2>
-                            <p class="text-sm mt-2 mont">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
-                                quae dignissimos molestiae!
-                            </p>
-                            <div class="mt-2 mont text-sm flex items-center gap-1">
-                                4.5
-                                <img src="{{ asset('assets/icons/star.svg') }}" alt="4.5 star rating" class="w-4 h-4" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 py-3">
-                        <div class="p-4 bg-[#F7F9F9] rounded-lg">
-                            <h2 class="mont font-bold text-sm">John Doe</h2>
-                            <p class="text-sm mt-2 mont">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
-                                quae dignissimos molestiae!
-                            </p>
-                            <div class="mt-2 mont text-sm flex items-center gap-1">
-                                4.5
-                                <img src="{{ asset('assets/icons/star.svg') }}" alt="4.5 star rating" class="w-4 h-4" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 py-3">
-                        <div class="p-4 bg-[#F7F9F9] rounded-lg">
-                            <h2 class="mont font-bold text-sm">John Doe</h2>
-                            <p class="text-sm mt-2 mont">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
-                                quae dignissimos molestiae!
-                            </p>
-                            <div class="mt-2 mont text-sm flex items-center gap-1">
-                                4.5
-                                <img src="{{ asset('assets/icons/star.svg') }}" alt="4.5 star rating" class="w-4 h-4" />
-                            </div>
-                        </div>
+
                     </div>
                 </div>
+                <!-- replace with actual location -->
+                <!-- <div class="rounded-xl overflow-hidden w-full">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28411.281346249652!2d88.61501527431642!3d27.111888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e403a8f5cb0d09%3A0x484cfb70d4671ad0!2sWELCOME%20HOMESTAY!5e0!3m2!1sen!2sin!4v1707063077947!5m2!1sen!2sin"
+                        width="600" height="300" style="border: 0" class="w-full" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> -->
             </div>
         </div>
 
@@ -161,14 +146,14 @@
                         <span class="mont font-bold text-xl text-gray-700">
                             How to reach Welcome Homestay
                         </span>
-                        <span class="text-sm mt-5">
+                        <span class="text-sm mt-5 text-justify">
                             Bara Mangwa Village is located 57 km away from Siliguri, and it typically takes about 2 hours to
                             reach by
                             road. Shared cabs will take you to Tista Bazaar, where you'll need to walk or get a ride for the
                             last 4 km
                             to reach Welcome Homestay. Another option is to book a taxi directly to the homestay.
                         </span>
-                        <span class="text-sm mt-2">
+                        <span class="text-sm mt-2 text-justify">
                             Once the taxi drops you off on the road, you'll be guided to the gates of Welcome Homestay. As
                             you walk
                             along, tranquility envelops you under the shade of towering conifer trees. Soon, you'll find
@@ -197,7 +182,7 @@
                                 </button>
                             </a>
                             <button
-                                class="sm:p-3 p-2 sm:text-md text-sm border-2 border-green-400 hover:bg-green-300 transition-color ease-in-out duration-300 rounded-lg flex items-center gap-2"
+                                class="sm:p-3 p-2 sm:text-md text-sm border-2 border-green-400 text-teal hover:bg-green-300 text-teal transition-color ease-in-out duration-300 rounded-lg flex items-center gap-2"
                                 onclick="openWhatsapp()">
                                 <img src="{{ asset('assets/icons/whatsapp.svg') }}" alt="" class="w-5" />
                                 +91 89440 65233
@@ -207,11 +192,11 @@
                 </div>
                 <!-- replace with actual location -->
                 <!-- <div class="rounded-xl overflow-hidden w-full">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28411.281346249652!2d88.61501527431642!3d27.111888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e403a8f5cb0d09%3A0x484cfb70d4671ad0!2sWELCOME%20HOMESTAY!5e0!3m2!1sen!2sin!4v1707063077947!5m2!1sen!2sin"
-                    width="600" height="300" style="border: 0" class="w-full" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div> -->
+                              <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28411.281346249652!2d88.61501527431642!3d27.111888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e403a8f5cb0d09%3A0x484cfb70d4671ad0!2sWELCOME%20HOMESTAY!5e0!3m2!1sen!2sin!4v1707063077947!5m2!1sen!2sin"
+                                width="600" height="300" style="border: 0" class="w-full" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div> -->
             </div>
         </div>
     </div>
