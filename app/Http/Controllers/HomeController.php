@@ -26,4 +26,9 @@ class HomeController extends Controller
         $visitor_count = VisitorCount::count();
         return view('places', compact('visitor_count'));
     }
+    public function policies()
+    {
+        $visitor_count = VisitorCount::count();
+        return view('policies', compact('visitor_count'));
+    }
 }

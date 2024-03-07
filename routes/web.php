@@ -15,6 +15,7 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'home'])->name('home');
+Route::get('/policies', [HomeController::class, 'policies'])->name('policies');
 Route::get('about', [HomeController::class, 'about'])->name('about');
 Route::get('gallery', [HomeController::class, 'gallery'])->name('gallery');
 Route::get('places', [HomeController::class, 'places'])->name('places');

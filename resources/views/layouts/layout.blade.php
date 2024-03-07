@@ -178,7 +178,7 @@
                     <span class="mont font-bold">Policies</span>
                     <ul class="p-2">
                         <li class="mont text-sm">
-                            <a href="#">Rules</a>
+                            <a href="{{ route('policies') }}">Rules</a>
                         </li>
                         <li class="mont text-sm mt-2">
                             <a href="#">Privacy Policy</a>
