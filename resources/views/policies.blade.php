@@ -25,23 +25,6 @@
                                     </ul>
                                 </div>
                             </div>
-
-                            <div class="bg-white p-6 rounded-lg shadow-md border card">
-                                <h4 class="text-xl font-semibold mb-2"><span class="text-teal">Guest Profile</span>
-                                </h4>
-                                <div class="flex justify-center">
-                                    <ul class="list-disc pl-4">
-                                        <li class="pb-2">
-                                            Unmarried couples allowed
-                                        </li>
-                                        <li class="pb-2">
-                                            Groups with only male guests are not allowed at this property
-
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
                             <div class="bg-white p-6 rounded-lg shadow-md border card">
                                 <h4 class="text-xl font-semibold mb-2"><span class="text-teal">ID Proof Related
                                     </span>
@@ -90,29 +73,26 @@
                                 <div class="flex justify-center">
                                     <ul class="list-disc pl-4">
                                         <li class="pb-2">
-                                            There are no restrictions on alcohol consumption.
+                                            There are no restrictions on alcohol consumption
                                         </li>
                                         <li class="pb-2">
                                             Food delivery service is not available at the property
                                         </li>
                                         <li class="pb-2">
-                                            Smoking within the premises is allowed
+                                            Smoking within the premises is allowed but not allowed inside the room
                                         </li>
                                     </ul>
                                 </div>
                             </div>
 
                             <div class="bg-white p-6 rounded-lg shadow-md border card">
-                                <h4 class="text-xl font-semibold mb-2"><span class="text-teal">Pet(s) Related
+                                <h4 class="text-xl font-semibold mb-2"><span class="text-teal">Property Damage
                                     </span>
                                 </h4>
                                 <div class="flex justify-center">
                                     <ul class="list-disc pl-4">
                                         <li class="pb-2">
-                                            Pets are not allowed.
-                                        </li>
-                                        <li class="pb-2">
-                                            There are no pets living on the property
+                                            Guests are responsible for covering any costs associated with property damage that occurs during their stay in the homestay
                                         </li>
                                     </ul>
                                 </div>
@@ -126,24 +106,7 @@
                                     <ul class="list-disc pl-4">
                                         <li class="pb-2">
                                             This property is not accessible to guests who use a wheelchair. Please make
-                                            arrangements accordingly.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="bg-white p-6 rounded-lg shadow-md border card">
-                                <h4 class="text-xl font-semibold mb-2"><span class="text-teal">Other Rules
-                                    </span>
-                                </h4>
-                                <div class="flex justify-center">
-                                    <ul class="list-disc pl-4">
-                                        <li class="pb-2">
-                                            Does not allow private parties or events
-                                        </li>
-                                        <li class="pb-2">
-                                            Guests are requested not to invite outside visitors in the room during their
-                                            stay.
+                                            arrangements accordingly
                                         </li>
                                     </ul>
                                 </div>
@@ -156,18 +119,38 @@
                                 <div class="flex justify-center">
                                     <ul class="list-disc pl-4">
                                         <li class="pb-2">
-                                            No extra bed will be provided to accommodate any child included in the booking.
+                                            No extra bed will be provided to accommodate any child included in the booking
                                         </li>
                                         <li class="pb-2">
                                             An extra bed will be provided to accommodate any additional guest included in
-                                            the booking for a charge mentioned below.
+                                            the booking for a charge mentioned below
 
                                         </li>
                                         <li class="pb-2">
-                                            INR 400 will be charged for an extra mattress per guest. (To be paid at the
+                                            INR 800 will be charged for an extra mattress per guest. (To be paid at the
                                             property)
                                         </li>
 
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="bg-white p-6 rounded-lg shadow-md border card">
+                                <h4 class="text-xl font-semibold mb-2"><span class="text-teal">Other Rules
+                                    </span>
+                                </h4>
+                                <div class="flex justify-center">
+                                    <ul class="list-disc pl-4">
+                                        <li class="pb-2">
+                                            Unmarried couples are allowed
+                                        </li>
+                                        <li class="pb-2">
+                                            Does not allow private parties or events
+                                        </li>
+                                        <li class="pb-2">
+                                            Guests are requested not to invite outside visitors in the room during their
+                                            stay
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

@@ -121,7 +121,8 @@
     </main>
 
     <footer class="border-t-2 rounded-t-xl border-x-2 py-5 md:px-2 lg:px-28">
-        <div class="flex flex-col md:flex-row md:items-start md:justify-between pb-4">
+        {{-- <div class="flex flex-col md:flex-row md:items-start md:justify-between pb-4"> --}}
+        <div class="flex flex-col md:flex-row md:items-start  pb-4">
             <!-- Footer left -->
             <div class="flex flex-col items-center mb-6 md:mb-0 md:items-start md:w-1/2">
                 <img src="{{ asset('assets/images/logo-transparent.png') }}" alt="logo"
@@ -145,10 +146,27 @@
                 </div>
             </div>
             <!-- Footer right -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:w-1/2 p-6 sm:p-0">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:w-1/1 p-6 sm:p-0">
+                <div class="">
+                    <span class="mont font-bold">Address</span>
+                    <ul class="pt-2">
+                        <li class="mont text-sm">
+                            C/O Krishna Tamang,
+                        </li>
+                        <li class="mont text-sm mt-1">
+                            Near Bara Mangwa Community Hall,
+                        </li>
+                        <li class="mont text-sm mt-1">
+                            Bara Mangwa Busty, P.O. Takling Busty,
+                        </li>
+                        <li class="mont text-sm mt-1">
+                            Rangli Rangliot, Darjeeling - 734312
+                        </li>
+                    </ul>
+                </div>
                 <div class="">
                     <span class="mont font-bold">Quick Links</span>
-                    <ul class="p-2">
+                    <ul class="pt-2">
                         <li class="mont text-sm">
                             <a href="{{ route('home') }}">Home</a>
                         </li>
@@ -167,16 +185,8 @@
                     </ul>
                 </div>
                 <div class="">
-                    <span class="mont font-bold">Support</span>
-                    <ul class="p-2">
-                        <li class="mont text-sm">
-                            <a href="./pages/.{{ route('home') }}#contactus">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="">
                     <span class="mont font-bold">Policies</span>
-                    <ul class="p-2">
+                    <ul class="pt-2">
                         <li class="mont text-sm">
                             <a href="{{ route('policies') }}">Rules</a>
                         </li>
@@ -185,6 +195,20 @@
                         </li>
                         <li class="mont text-sm mt-2">
                             <a href="#">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <span class="mont font-bold">Contact us</span>
+                    <ul class="pt-2">
+                        <li class="mont text-sm text-teal mb-2">
+                            <i class="bi bi-telephone-fill pr-2"></i> 9083831824
+                        </li>
+                        <li class="mont text-sm text-teal mb-2">
+                            <i class="bi bi-whatsapp pr-2"></i> 8944065233
+                        </li>
+                        <li class="mont text-sm text-teal mb-2">
+                            <i class="bi bi-envelope pr-2"></i> welcomehomestay2024@gmail.com
                         </li>
                     </ul>
                 </div>

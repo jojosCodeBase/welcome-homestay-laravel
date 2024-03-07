@@ -92,7 +92,7 @@
         </div>
 
         <!-- Gumba Dara -->
-        <div class="px-6 pb-5 md:px-28 flex flex-col-reverse md:flex-row-reverse h-full md:h-[40vh] gap-6 md:gap-10">
+        <div class="px-6 pb-5 md:px-28 flex flex-col-reverse md:flex-row-reverse h-full md:h-[45vh] gap-6 md:gap-10">
             <div class="md:w-1/2 bg-back flex flex-col p-5 rounded-xl">
                 <span class="mont text-xl font-semibold text-gray-600">
                     Gumba Dara
