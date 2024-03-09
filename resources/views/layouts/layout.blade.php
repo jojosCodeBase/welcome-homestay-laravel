@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome Homestay Darjeeling</title>
+    <title>Welcome Homestay | Darjeeling</title>
     <link rel="stylesheet" href="{{ asset('assets/css/tailwind.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
     <link rel="shortcut icon" href="{{ asset('assets/images/logo-round.png') }}" type="image/x-icon" />
@@ -106,7 +106,6 @@
     </main>
 
     <footer class="border-t-2 rounded-t-xl border-x-2 py-5 md:px-2 lg:px-28">
-        {{-- <div class="flex flex-col md:flex-row md:items-start md:justify-between pb-4"> --}}
         <div class="flex flex-col md:flex-row md:items-start  pb-4">
             <!-- Footer left -->
             <div class="flex flex-col items-center mb-6 md:mb-0 md:items-start md:w-1/2">
