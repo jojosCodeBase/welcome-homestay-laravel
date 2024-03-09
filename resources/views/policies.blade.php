@@ -155,16 +155,8 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-                <!-- replace with actual location -->
-                <!-- <div class="rounded-xl overflow-hidden w-full">
-                                      <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28411.281346249652!2d88.61501527431642!3d27.111888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e403a8f5cb0d09%3A0x484cfb70d4671ad0!2sWELCOME%20HOMESTAY!5e0!3m2!1sen!2sin!4v1707063077947!5m2!1sen!2sin"
-                                        width="600" height="300" style="border: 0" class="w-full" allowfullscreen="" loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                    </div> -->
             </div>
         </div>
     </div>
