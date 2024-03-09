@@ -5,31 +5,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome Homestay Darjeeling</title>
+    <link rel="stylesheet" href="{{ asset('assets/css/tailwind.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
     <link rel="shortcut icon" href="{{ asset('assets/images/logo-round.png') }}" type="image/x-icon" />
     <meta name="description"
-        content="Experience the warm hospitality of WelcomeHomestay, your ultimate homestay destination in enchanting Darjeeling. Immerse yourself in the wonders of this picturesque town, as we welcome you as part of our extended family. Discover the beauty of Darjeeling with a stay at WelcomeHomestay, where heartfelt hospitality meets the breathtaking landscapes of this charming locale." />
+    content="Experience the warm hospitality of WelcomeHomestay, your ultimate homestay destination in enchanting Darjeeling. Immerse yourself in the wonders of this picturesque town, as we welcome you as part of our extended family. Discover the beauty of Darjeeling with a stay at WelcomeHomestay, where heartfelt hospitality meets the breathtaking landscapes of this charming locale." />
     <meta name="keywords"
-        content="Darjeeling, Homestay, Welcome Homestay, Webpage, Family, Budget, Cozy, Mountain, Himalaya, Charming, Tea, Queen, Comfort, Taste, Food, View, Travel, Tourist, Friendly, Best Tea, Local, Experience, Serenity" />
+    content="Darjeeling, Homestay, Welcome Homestay, Webpage, Family, Budget, Cozy, Mountain, Himalaya, Charming, Tea, Queen, Comfort, Taste, Food, View, Travel, Tourist, Friendly, Best Tea, Local, Experience, Serenity" />
     <meta name="author" content="Krishna Tamang" />
     <script src="{{ asset('assets/js/Components.js') }}" defer></script>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: "#da373d",
-                        lightb: "#B8DBD9",
-                        spring: "#04724D",
-                        back: "#FDF5E6",
-                        orchid: "#EFB9CB",
-                    },
-                },
-            },
-        };
-    </script>
     <script src="{{ asset('assets/js/script.js') }}" defer></script>
 </head>
 
